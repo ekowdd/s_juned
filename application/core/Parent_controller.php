@@ -6,7 +6,7 @@ class Parent_controller extends CI_Controller {
 		public function __construct(){
 			  parent::__construct();
 				$this->data['judul'] = 'Program xxxx';
-			 
+
 				/*
 				session list - role access
 				1.superadmin = all menu, all master
